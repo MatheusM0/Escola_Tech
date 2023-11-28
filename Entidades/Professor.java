@@ -1,43 +1,21 @@
 package Entidades;
 
 public class Professor extends Funcionario {
-    protected String curso;
+    protected String disciplina;
 
 
-    public Professor(String nome, int idade, int matricula, String curso){
+    public Professor(String nome, int idade, int matricula, String disciplina){
         super(nome, idade, matricula);
-        this.curso = curso;
+        this.disciplina = disciplina;
     }
 
-
-    public String getNome() {
-        return nome;
+    
+    public void ministrarAula(){
+        System.out.println("Ministrando aula de "+disciplina);
     }
 
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void aplicarProva(){
+        System.out.println("Aplicando prova de "+disciplina);
     }
-
-
-    public int getIdade() {
-        return idade;
-    }
-
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-
-    public String getCurso() {
-        return curso;
-    }
-
-
-    public void setCurso(String curso) {
-        this.curso = curso;
-    }
-
     
 }
