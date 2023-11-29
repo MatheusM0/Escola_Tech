@@ -15,6 +15,14 @@ public class Escola {
         System.out.println("Organizando evento na escola");
     }
 
+    public void matricularProfessor(Professor a) {
+            System.out.println("Matrícula realizada do Professor: "+a.getNome()+"\nMinistrando a disciplina de: "+a.getDisciplina());    
+        
+        }
+
+        
+    
+
     public static void main(String[] args) {
         
         Escola escola = new Escola();
@@ -23,6 +31,8 @@ public class Escola {
         escola.organizarEvento();
 
         Professor professor = new Professor("João", 35, 12345, "Matemática");
+
+        escola.matricularProfessor(professor);
 
         escola.chamarMinistrarAula(professor);
 
