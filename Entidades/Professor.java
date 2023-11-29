@@ -22,4 +22,8 @@ public class Professor extends Funcionario {
         System.out.println("Avaliando o aluno " + nomeAluno + " na disciplina de " + disciplina + ". Nota: " + nota);
     }
     
+    public void chamarRealizarChamada (Escola e) {
+        e.realizarChamada();
+    }
+
 }

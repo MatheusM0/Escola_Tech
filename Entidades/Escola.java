@@ -25,5 +25,7 @@ public class Escola {
         Professor professor = new Professor("João", 35, 12345, "Matemática");
 
         escola.chamarMinistrarAula(professor);
+
+        professor.chamarRealizarChamada(escola);
     }
 }
