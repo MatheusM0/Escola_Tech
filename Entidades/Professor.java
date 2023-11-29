@@ -26,4 +26,16 @@ public class Professor extends Funcionario {
         e.realizarChamada();
     }
 
+
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+
+    
 }
