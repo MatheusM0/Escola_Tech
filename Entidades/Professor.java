@@ -17,5 +17,9 @@ public class Professor extends Funcionario {
     public void aplicarProva(){
         System.out.println("Aplicando prova de "+disciplina);
     }
+
+    public void avaliarAluno(String nomeAluno, double nota){
+        System.out.println("Avaliando o aluno " + nomeAluno + " na disciplina de " + disciplina + ". Nota: " + nota);
+    }
     
 }
