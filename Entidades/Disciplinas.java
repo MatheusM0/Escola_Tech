@@ -1,5 +1,5 @@
 public class Disciplinas {
-    
+
     private Professor professor;
 
     public String nomeDisciplina(String nome){
