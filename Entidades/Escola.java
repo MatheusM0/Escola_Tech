@@ -19,7 +19,9 @@ public class Escola {
             System.out.println("Matrícula realizada do Professor: "+a.getNome()+"\nMinistrando a disciplina de: "+a.getDisciplina());    
         
         }
-
+    public void showInfo(String classe1){
+        System.out.println("A classe destaque foi: " + classe1);
+    }
         
     
 
